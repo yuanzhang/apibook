@@ -2,12 +2,13 @@
 # 名称 	类型 	必选 	描述
 
 
-client_id 	string 	yes 	申请应用时分配的APP_KEY
-access_token 	string 	yes 	乘客认证信息
-timestamp 	int 	yes 	时间戳
-order_id 	int 	yes 	订单id
-sign 	string 	yes 	签名
-注意事项
+1. client_id 	string 	yes 	申请应用时分配的APP_KEY
+2. access_token 	string 	yes 	乘客认证信息
+3. timestamp 	int 	yes 	时间戳
+4. order_id 	int 	yes 	订单id
+5. sign 	string 	yes 	签名
+6. 注意事项
+
 
 暂无
 访问频率限制
@@ -28,6 +29,7 @@ sign 	string 	yes 	签名
 ```
 <?php echo $res;?>```
 
+<pre>
 {
     "errno": 0,
     "errmsg": "SUCCESS",
@@ -153,5 +155,6 @@ sign 	string 	yes 	签名
         }
     }
 }
+</pre>
 
 
