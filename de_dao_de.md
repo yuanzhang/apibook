@@ -1,5 +1,7 @@
 # 请求参数
-名称 	类型 	必选 	描述
+# 名称 	类型 	必选 	描述
+
+
 client_id 	string 	yes 	申请应用时分配的APP_KEY
 access_token 	string 	yes 	乘客认证信息
 timestamp 	int 	yes 	时间戳
@@ -15,9 +17,16 @@ sign 	string 	yes 	签名
     司机计费后（status>=500）访问限制在 300秒/次
     如果超频：返回 errno: 36003
 
-返回数据
+    返回数据
 
 
+
+
+---
+
+水电费水电费
+```
+<?php echo $res;?>```
 
 {
     "errno": 0,
