@@ -1,0 +1,20 @@
+{
+    "name": "pyzl/test",
+    "description": "pyzl test",
+    "keywords": ["pyzl"],
+    "homepage": "https://github.com/yuanzhang/apibook",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhangyuan",
+            "email": "pyzl1314@hotmail.com",
+            "homepage": "https://github.com/yuanzhang"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "suggest": {
+        "monolog/monolog": "Allows more advanced logging of the application flow"
+    }
+}
